@@ -1,0 +1,21 @@
+body{
+    background-image: url("images.jpeg")
+    background-size; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#questions{
+    text-align: left;
+}
+#questionsIncomplete{
+color:black;
+}
+submit:hover{
+    boxshadow:green;
+    background:greenyellow;
+    color:black;
+}
+h1{
+    color: red;
+}
