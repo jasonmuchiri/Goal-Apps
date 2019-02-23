@@ -1,14 +1,14 @@
 $(document).ready(function(){
-$("#questions") .submit(function(event){
+    $(".question").submit(function(event){
+         var one = parseInt($("input:radio[name=one]:checked").val());
+         var two = parseInt($("input:radio[name=two]:checked").val());
+         var three = parseInt($("input:radio[name=three]:checked").val());
+         var four = parseInt($("input:radio[name=four]:checked").val());
 
-
-$('#results');text('');
-  var score=0;
-  var answer1=($("input[type=radio][name=question1 Answer]:checked")va1: ());
-  var answer2=($("input[type=radio][name=question2 Answer]:checked")va1:());
-  var answer3=($("input[type=radio][name=question3 Answer]:checked")va1:());
-  var answer4=($("input[type=radio][name=question4 Answer]:checked")va1:();
-
-  if(answer1===undefined || answer2===undefined || answer3===undefined){
-      $('#questionIncomplete').text('Do not leave black spaces')
-  }
+         var total= one+two+three+four;
+        $("#score").text("Your score is " + total);
+         event.preventDefault();
+     });
+  });
+ 
+  
