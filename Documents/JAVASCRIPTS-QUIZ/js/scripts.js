@@ -13,5 +13,11 @@ $(document).ready(function(){
          $("#percentage").text("Your have "+ percentage + "%");
          $("#results").show();
      });
+     $('#userprofile').submit(function(event){
+         var name= $("#Name").val();
+         var class= $("#class").val();
+         var adm= $("#adm").val();
+         var date= $("#date").val();
+     }
   });
  
