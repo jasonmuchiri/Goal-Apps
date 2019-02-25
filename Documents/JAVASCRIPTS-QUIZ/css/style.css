@@ -1,8 +1,9 @@
 body{
-    background-image: url("images.jpeg")
-    background-size; 
-    background-repeat: no-repeat;
+    background-image: url("images.jpeg");
     background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Abel', sans-serif;
+    font-size: 2em;
     
 }
 #questions{
@@ -18,4 +19,16 @@ submit:hover{
 }
 h1{
     color: red;
+}
+.jumbotron{
+    text-align: center;
+    font-weight: bold;
+}
+#results{
+    border: 1px solid white;
+    padding: 2.5em;
+    margin-right: 10em;
+    margin-top: 0.5em;
+    font-size: 2em;   
+    display: none; 
 }

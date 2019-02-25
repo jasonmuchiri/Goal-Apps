@@ -4,12 +4,14 @@
 ## Description
 The above project is basically on the  weekly test that is done at the end of every week to enable or satisfy the students whether they have understood the content of the week.The test is on Javascripts.The student will get there score after attempting the question and submit to get there score. 
 ## Setup/Installation Requirements
-* Open a github account().
-* Search for the project name at the repository.()
+* Open your github account.
+* Search for my github account (adhoadhi).
+* Search for the project name at the repository.(Javascripts Quiz)
 * Find project from your account and edit.
-Behaviour|Input Example|Output Example
------------------|---------------|--------------
-Accept user input||
+## Behaviour Driven Development
+| General Behaviour    | Input Example   |  Output Example|
+| :-----------------| :--------------- | :-------------- |
+| Accept user input|
 
 ## Known Bugs
 Currently have not encountered any known Bug.
@@ -18,7 +20,7 @@ HTML.
 CSS.
 JAVASCRIPTS.
 ## Support and contact details
-Email Address: adhoadhigal@gmail.com
+Email Address: adhoadhigal@gmail.comhkh
 Phone Number: +254 748393309
 ### License
 MIT License

@@ -8,7 +8,10 @@ $(document).ready(function(){
          var total= one+two+three+four;
         $("#score").text("Your score is " + total);
          event.preventDefault();
+
+         var percentage=(total/80)*100;
+         $("#percentage").text("Your have "+ percentage + "%");
+         $("#results").show();
      });
   });
  
-  
