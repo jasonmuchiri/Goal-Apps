@@ -13,6 +13,7 @@ The above project is basically on the  weekly test that is done at the end of ev
 | :-----------------| :--------------- | :-------------- |
 | User select the correct answer | The correct answer is displayed|The score is output |
 | Select the multiple choices only one answer | The answer is then submitted|The score is return immediately|
+| The multiple choices are clicked only one| The answer selected shows whether the user qualify the correct answer| When submitted the correct answer is displayed|
 
 
 ## Known Bugs
