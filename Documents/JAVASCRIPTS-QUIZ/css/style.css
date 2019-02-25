@@ -38,3 +38,8 @@ h1{
     font-size: 2em;   
     display: none; 
 }
+.btn-primary{
+    padding: 1em;
+    margin-top: 0.5em;
+
+}
