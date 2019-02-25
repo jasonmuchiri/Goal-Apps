@@ -13,7 +13,7 @@ body{
 color:black;
 }
 submit:hover{
-    boxshadow:green;
+    box-shadow:green;
     background:greenyellow;
     color:black;
 }
@@ -23,6 +23,12 @@ h1{
 .jumbotron{
     text-align: center;
     font-weight: bold;
+}
+.jumbotron div{
+    float: left;
+}
+.jumbotron img{
+    margin-right: 0.3em;
 }
 #results{
     border: 1px solid white;

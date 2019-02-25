@@ -11,7 +11,9 @@ The above project is basically on the  weekly test that is done at the end of ev
 ## Behaviour Driven Development
 | General Behaviour    | Input Example   |  Output Example|
 | :-----------------| :--------------- | :-------------- |
-| Accept user input|
+| User select the correct answer | The correct answer is displayed|The score is output |
+| Select the multiple choices only one answer | The answer is then submitted|The score is return immediately|
+
 
 ## Known Bugs
 Currently have not encountered any known Bug.
