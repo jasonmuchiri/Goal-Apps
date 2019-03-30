@@ -5,19 +5,20 @@
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text"  class="form-control" id="name" [(ngModel)]="newGoal.name" name="name" #name="ngModel" required>
-                
+                Display {{newGoal.name}}
                 <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
                     <p> Name is Required</p>
-                    
+            
                 </div>
             </div>
             <!-- Description Input -->
             <div class="form-group">
                 <label for="description">Description</label>
                 <textarea class="form-control" id="description" rows="4" [(ngModel)]="newGoal.description" name="description" #description="ngModel" required></textarea>
+                Display {{newGoal.description}}
                 <div [hidden]="description.valid || description.pristine" class="alert alert-danger">
                     <p> Description is Required</p>
-                    
+                   
                 </div>
                 
             </div>
